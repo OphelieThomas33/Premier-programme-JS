@@ -1,13 +1,13 @@
-// let prenom = "Marc & Simon"
+let prenom = "Marc & Simon"
 // // Chaînes de caractères (string)
 
-// let age = 21.5;
+let age = 21.5;
 // // Nombre (number)
 
-// let majorite = true;
+let majorite = true;
 // // Booleen (boolean)
 
-// let win = false;
+let win = false;
 // win = true;
 
 // const prenom = "Marc"; // ne peut pas être modifié
