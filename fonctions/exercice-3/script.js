@@ -16,4 +16,4 @@ function somme(nombre) {   // 3
 
 }
 
-console.log(somme(3));
+console.log(somme(158));
