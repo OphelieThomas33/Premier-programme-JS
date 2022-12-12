@@ -9,13 +9,13 @@ while (i < 5) {
 
 }
 
-// // do ... while 
+// do ... while 
 
-// do {
+do {
 
-//    var prenom = prompt("quel est votre prénom ?");
+   var prenom = prompt("quel est votre prénom ?");
 
-// } while(prenom == "" || prenom == null);
+} while(prenom == "" || prenom == null);
 
-// alert('Bonjour ' + prenom);
+alert('Bonjour ' + prenom);
 
