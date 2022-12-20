@@ -57,19 +57,19 @@ let dateLocale      = dateActuelle3.toLocaleString('fr-FR', {
 console.log(dateLocale);
 
 // Choisir le format selon la localisation de l'utilisateur :
-// let dateActuelle4   = new Date();
+let dateActuelle4   = new Date();
 
-// let dateLocale2      = dateActuelle4.toLocaleString(navigator.language, {
-//     weekday: 'long',   // short (3 premières lettres du jour), narrow (première lettre), long (toutes les lettres)
-//     year: 'numeric',   // numerie(xxxx), 2-digit (xx);
-//     month: 'long',   // short, narrow, long, numeric
-//     day: 'numeric',   // numeric, 2-digit
-//     hour: 'numeric',
-//     minute: 'numeric',
-//     second: 'numeric',
-// });
+let dateLocale2      = dateActuelle4.toLocaleString(navigator.language, {
+    weekday: 'long',   // short (3 premières lettres du jour), narrow (première lettre), long (toutes les lettres)
+    year: 'numeric',   // numerie(xxxx), 2-digit (xx);
+    month: 'long',   // short, narrow, long, numeric
+    day: 'numeric',   // numeric, 2-digit
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+});
 
-// console.log(dateLocale2);
+console.log(dateLocale2);
 
 
 // ** Les templates String avec les dates : 
