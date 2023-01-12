@@ -23,3 +23,31 @@
     // De changer le texte du bouton en "Thème clair"
     // De définir le localStorage avec le nom "theme" sur "sombre"
 
+
+let button  = document.querySelector('#mode');
+let span    = document.querySelector('span');
+
+if(localStorage.getItem('theme')) {
+    if(localStorage.getItem('Theme') == 'sombre') {
+        modeSombre()
+    }
+};
+
+button.addEventListener('click', () => {
+    if(document.body.classList.contains('dark')) {
+        // mode clair
+        document.body.className = '';       
+        span.textContent = 'Thème sombre';
+        localStorage.setIem('theme', 'clair');
+    } else 
+        // mode sombre
+        modeSombre();
+});
+
+function modeSombre() {
+    document.body.className = 'dark';
+    span.textContent = 'Thème clair';
+    localStorage.setIem('theme', 'sombre');
+};
+
+
