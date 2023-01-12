@@ -4,7 +4,7 @@ const url = 'https://blockchain.info/ticker';
 function miseAJourPrix() {
     // créer une requête
     let requete = new XMLHttpRequest();   // créer un objet
-    requete.open('GET', url);  // ouvrir une nouvelle requête => 1er paramètre : GET (uniquement 1 url) / POST (envoyer des données via un formulaire) - 2ème paramètre : url
+    requete.open('GET', url);  // ouvrir une nouvelle requête => 1er paramètre : GET (infos envoyées dans l'URL) / POST (envoyer des données via un formulaire) - 2ème paramètre : url
     requete.responseType = 'json';  // réponse attendue : ici du Json
     requete.send();   // nous envoyons notre requête
 
